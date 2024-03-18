@@ -1,0 +1,36 @@
+.wrapper {
+    line-height: 18px;    
+}
+
+.image_wrapper {
+    border-radius: 100%;
+}
+
+.basket_value_wrapper {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #1ABA1A;
+}
+
+.basket_value {
+    font-size: 11px;
+    color: #fff; 
+}
+
+.cart_wrapper {
+    margin-left: 10px;
+}
+
+.cart_header {
+    font-size: 11px;
+    color: #666;
+}
+
+.cart_price {
+    font-size: 14px;
+    font-weight: bold;
+}

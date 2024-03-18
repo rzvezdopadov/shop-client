@@ -1,4 +1,24 @@
+.wrapper {
+    line-height: 0px;
+}
+
 .link {
     display: flex;
     justify-content: center;
+}
+
+.select {
+    display: flex;
+    border: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-right: 7px;
+} 
+
+.link_additional {
+    margin-left: 14px; 
+    font-weight: bold;
+    font-size: 14px;
 }
