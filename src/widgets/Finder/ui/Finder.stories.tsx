@@ -1,12 +1,12 @@
 import { Story, type Meta, type StoryObj } from '@storybook/react';
 import './../../../app/styles/index.scss';
-import { Navbar } from './Navbar';
+import { Finder } from './Finder';
 import { StoreDecorator } from '@/shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Flex } from 'antd';
 
 const meta = {
-    title: 'widgets/Navbar',
-    component: Navbar,
+    title: 'widgets/Finder',
+    component: Finder,
     parameters: {
         layout: 'centered',
         nextjs: {
@@ -16,7 +16,7 @@ const meta = {
     tags: [],
     argTypes: {},
     decorators: [StoreDecorator],
-} as Meta<typeof Navbar>;
+} as Meta<typeof Finder>;
 
 export default meta;
 

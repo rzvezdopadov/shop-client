@@ -1,0 +1,23 @@
+.select {
+    display: flex;
+    height: 45px;
+    width: 155px;
+    text-align: center;
+    align-items: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-weight: bold;
+    border: solid 0px;
+}
+
+.input {
+    height: 45px;
+    width: 359px;
+    border-radius: 0px;
+    border: solid 0px;
+}
+
+.img_wrapper {
+    display: flex;
+    align-items: center;
+}
