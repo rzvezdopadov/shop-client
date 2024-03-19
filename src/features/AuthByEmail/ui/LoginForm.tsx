@@ -29,12 +29,12 @@ export const LoginForm = () => {
                 </FormItem>
                 <FormItem>
                     <Button className={cls.button} type="primary" shape="default">
-                        Login
+                        LOGIN
                     </Button>
                 </FormItem>
                 <Flex>
                     <Typography.Text className={cls.label_signup}>NEW USER ?&nbsp;</Typography.Text>
-                    <Link className={cls.link_signup} href={'/'}>
+                    <Link className={cls.link_signup} href={'/home/pages/signup'}>
                         SIGN UP
                     </Link>
                 </Flex>
