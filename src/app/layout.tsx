@@ -4,6 +4,7 @@ import './styles/index.scss';
 import { Navbar } from '@/widgets/Navbar';
 import { StoreProvider } from './providers/StoreProvider';
 import { Finder } from '@/widgets/Finder';
+import { Breadcrumb } from '@/widgets/Breadcrumb';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,8 +22,9 @@ export default function RootLayout({
         <html lang="en">
             <body className={inter.className}>
                 <StoreProvider>
-                    <Navbar></Navbar>
-                    <Finder></Finder>
+                    <Navbar />
+                    <Finder />
+                    <Breadcrumb />
                     <main className="main">{children}</main>
                 </StoreProvider>
             </body>

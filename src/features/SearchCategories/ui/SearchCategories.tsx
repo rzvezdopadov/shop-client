@@ -16,7 +16,7 @@ export const SearchCategories = () => {
             </select>
             <Input className={cls.input} placeholder="Search anything..."></Input>
             <Flex className={cls.img_wrapper}>
-                <Image src={littleGlass.src} preview={false}></Image>
+                <Image src={littleGlass.src} alt="glass" preview={false}></Image>
             </Flex>
         </Flex>
     );
