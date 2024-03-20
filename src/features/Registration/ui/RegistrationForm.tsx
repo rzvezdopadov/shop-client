@@ -17,7 +17,7 @@ export const RegistrationForm = () => {
             </Typography.Text>
             <Form size="large" labelCol={{ span: 24 }} wrapperCol={{ span: 24 }} style={{ width: 503 }}>
                 <FormItem name="name" label="Your name" style={{ fontWeight: 'bold', marginBottom: '5px' }}>
-                    <Input className={cls.input} autoFocus={true} placeholder="Example@gmail.com" />
+                    <Input className={cls.input} autoFocus={true} placeholder="Jhon Deo" />
                 </FormItem>
                 <FormItem name="email" label="Email Address" style={{ fontWeight: 'bold', marginBottom: '5px' }}>
                     <Input className={cls.input} placeholder="Example@gmail.com" />
